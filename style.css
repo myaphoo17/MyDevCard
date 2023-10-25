@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#mouse-tracker {
+  width: 20px;
+  height: 20px;
+  background: rgb(245, 238, 238);
+  border-radius: 50%;
+  position: absolute;
+}
+
+body {
+  cursor: none;
+  background-color: rgba(51, 48, 48, 0.767);
+  background-image: url("./Post.gif");
+
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.intro {
+  background-color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.introduction-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  text-align: center;
+  width: 20rem;
+  height: 22rem;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+h4 {
+  margin-top: 0.3rem;
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+#linksContainer .contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#linksContainer .contact-info h8 {
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+.h6-a {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+.h6-b {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+.social-links {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.card {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+.i {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  margin-left: 1.5rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+}
+
+h2:hover,
+.i:hover,
+h6:hover,
+h5:hover,
+h4:hover {
+  background-color: #48198579;
+  transition: background-color 0.3s ease;
+}
+#getToKnowButton:hover {
+  background-color: rgb(101, 71, 236);
+  color: white;
+}
